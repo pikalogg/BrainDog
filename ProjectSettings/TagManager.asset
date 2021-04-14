@@ -7,6 +7,8 @@ TagManager:
   - khung
   - monster
   - player
+  - coin
+  - exit
   layers:
   - Default
   - TransparentFX
@@ -16,10 +18,10 @@ TagManager:
   - UI
   - 
   - 
+  - Bgr
   - 
-  - 
-  - 
-  - 
+  - Game
+  - Menu
   - 
   - 
   - 

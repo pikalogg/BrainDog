@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1930343091698388075}
   - component: {fileID: 1930343091698388072}
   - component: {fileID: 4381197831023053591}
-  - component: {fileID: -5748571809253185711}
-  m_Layer: 0
+  - component: {fileID: 5836511672558521214}
+  m_Layer: 10
   m_Name: Player
   m_TagString: player
   m_Icon: {fileID: 0}
@@ -123,9 +123,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endGame: 0
-  speedX: 2
-  speedY: 2
---- !u!50 &-5748571809253185711
+  speed: 3
+--- !u!50 &5836511672558521214
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -134,15 +133,15 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930343091698388071}
   m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
-  m_Mass: 0.5112
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
